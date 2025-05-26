@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-const backend = "https://mini-e-com-backend.onrender.com";
-backend.render();
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
