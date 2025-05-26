@@ -5,7 +5,7 @@ import App from './App';
 
 
 
-const root = "https://mini-e-com-backend.onrender.com"
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
