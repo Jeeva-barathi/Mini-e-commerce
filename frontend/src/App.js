@@ -9,6 +9,8 @@ import ProductDetail from './pages/ProductDetail';
 import { useState } from 'react';
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+const API = "https://mini-e-com-backend.onrender.com"; 
+
 function App() {
   const [cartItems, setCartitems] = useState([]);
 
